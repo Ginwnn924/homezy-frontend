@@ -1,0 +1,80 @@
+{
+  "header": {
+    "home": "Trang chủ",
+    "stays": "Chỗ ở",
+    "experiences": "Trải nghiệm",
+    "become_host": "Trở thành chủ nhà",
+    "host_home": "Cho thuê nhà",
+    "help": "Trung tâm trợ giúp",
+    "login": "Đăng nhập",
+    "signup": "Đăng ký"
+  },
+  "banner": {
+    "title": "Tìm nơi dừng chân hoàn hảo cho chuyến đi của bạn",
+    "subtitle": "Khám phá những căn nhà homestay độc đáo, tiện nghi và giá cả hợp lý.",
+    "search_placeholder": "Bạn muốn đến đâu?",
+    "search_button": "Tìm kiếm"
+  },
+  "footer": {
+    "about": "Về chúng tôi",
+    "support": "Hỗ trợ",
+    "hosting": "Cho thuê nhà",
+    "terms": "Điều khoản",
+    "privacy": "Quyền riêng tư",
+    "copyright": "© 2024 Homezy. Bảo lưu mọi quyền."
+  },
+  "auth": {
+    "general": {
+      "or_continue_with": "Hoặc tiếp tục với",
+      "google": "Google"
+    },
+    "login": {
+      "title": "Đăng nhập",
+      "submit": "Đăng nhập",
+      "submitting": "Đang đăng nhập...",
+      "no_account": "Chưa có tài khoản?",
+      "switch_to_register": "Đăng ký",
+      "forgot_password": "Quên mật khẩu?"
+    },
+    "register": {
+      "title": "Đăng ký",
+      "submit": "Đăng ký tài khoản",
+      "submitting": "Đang đăng ký...",
+      "has_account": "Đã có tài khoản?",
+      "switch_to_login": "Đăng nhập",
+      "terms_prefix": "Bằng việc đăng ký, bạn đồng ý với ",
+      "terms_link": "Điều khoản dịch vụ",
+      "privacy_link": "Chính sách bảo mật",
+      "terms_suffix": " của chúng tôi."
+    },
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "name@example.com"
+      },
+      "password": {
+        "label": "Mật khẩu",
+        "placeholder": "••••••••"
+      },
+      "fullname": {
+        "label": "Họ và tên",
+        "placeholder": "Nguyễn Văn A"
+      },
+      "phone": {
+        "label": "Số điện thoại",
+        "placeholder": "0912345678"
+      }
+    },
+    "validation": {
+      "email_invalid": "Email không hợp lệ",
+      "password_min": "Mật khẩu phải có ít nhất 6 ký tự",
+      "fullname_min": "Họ tên phải có ít nhất 2 ký tự",
+      "phone_invalid": "Số điện thoại không hợp lệ"
+    }
+  },
+  "home": {
+    "featured_stays": "Chỗ ở nổi bật",
+    "popular_destinations": "Điểm đến phổ biến",
+    "per_night": "/ đêm"
+  }
+}

@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1A365D;
+  --color-secondary: #C9A962;
+  --color-accent: #F5EFE6;
+  --color-background: #FAFAF8;
+
+  --color-text-primary: #2D3748;
+  --color-text-secondary: #718096;
+
+  --color-success: #48BB78;
+  --color-error: #C53030;
+
+  /* Font Families */
+  --font-display: "Montserrat", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+  --font-sans: "Montserrat", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-accent: "Montserrat", sans-serif;
+
+  /* Luxury Spacing */
+  --spacing-luxury-sm: 1.5rem;
+  --spacing-luxury-md: 3rem;
+  --spacing-luxury-lg: 6rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary font-sans;
+  }
+}
+
+@layer utilities {
+  /* Glass Morphism */
+  .glass {
+    @apply bg-white/75 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+
+  .glass-dark {
+    @apply bg-primary/80 backdrop-blur-md border border-white/10;
+  }
+
+  .glass-gold {
+    @apply bg-secondary/90 backdrop-blur-sm border border-secondary/30;
+  }
+
+  /* Gradient Overlays */
+  .gradient-overlay-dark {
+    @apply relative before:absolute before:inset-0 before:bg-gradient-to-t before:from-black/60 before:via-black/20 before:to-transparent before:z-10;
+  }
+
+  .gradient-overlay-gold {
+    @apply relative before:absolute before:inset-0 before:bg-gradient-to-br before:from-secondary/40 before:to-transparent before:z-10;
+  }
+
+  /* Luxury Shadows */
+  .shadow-luxury {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .shadow-luxury-hover {
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12), 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  .shadow-gold {
+    box-shadow: 0 8px 32px rgba(201, 169, 98, 0.2), 0 2px 8px rgba(201, 169, 98, 0.1);
+  }
+
+  /* Luxury Link with Underline Animation */
+  .luxury-link {
+    @apply relative text-text-secondary hover:text-primary transition-colors duration-300;
+    @apply after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-secondary;
+    @apply after:transition-all after:duration-300 hover:after:w-full;
+  }
+}

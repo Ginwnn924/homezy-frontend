@@ -1,0 +1,80 @@
+{
+  "header": {
+    "home": "Home",
+    "stays": "Stays",
+    "experiences": "Experiences",
+    "become_host": "Become a Host",
+    "host_home": "Host your home",
+    "help": "Help Center",
+    "login": "Log in",
+    "signup": "Sign up"
+  },
+  "banner": {
+    "title": "Find the perfect place for your next trip",
+    "subtitle": "Discover unique homestays, comfortable amenities, and reasonable prices.",
+    "search_placeholder": "Where do you want to go?",
+    "search_button": "Search"
+  },
+  "footer": {
+    "about": "About Us",
+    "support": "Support",
+    "hosting": "Hosting",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "copyright": "© 2024 Homezy. All rights reserved."
+  },
+  "auth": {
+    "general": {
+      "or_continue_with": "Or continue with",
+      "google": "Google"
+    },
+    "login": {
+      "title": "Log in",
+      "submit": "Log in",
+      "submitting": "Logging in...",
+      "no_account": "Don't have an account?",
+      "switch_to_register": "Sign up",
+      "forgot_password": "Forgot password?"
+    },
+    "register": {
+      "title": "Sign up",
+      "submit": "Sign up",
+      "submitting": "Signing up...",
+      "has_account": "Already have an account?",
+      "switch_to_login": "Log in",
+      "terms_prefix": "By registering, you agree to our ",
+      "terms_link": "Terms of Service",
+      "privacy_link": "Privacy Policy",
+      "terms_suffix": "."
+    },
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "name@example.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "••••••••"
+      },
+      "fullname": {
+        "label": "Full Name",
+        "placeholder": "John Doe"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "0912345678"
+      }
+    },
+    "validation": {
+      "email_invalid": "Invalid email address",
+      "password_min": "Password must be at least 6 characters",
+      "fullname_min": "Full name must be at least 2 characters",
+      "phone_invalid": "Invalid phone number"
+    }
+  },
+  "home": {
+    "featured_stays": "Featured Stays",
+    "popular_destinations": "Popular Destinations",
+    "per_night": "/ night"
+  }
+}
