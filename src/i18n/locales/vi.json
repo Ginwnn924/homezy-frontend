@@ -13,7 +13,12 @@
     "title": "Tìm nơi dừng chân hoàn hảo cho chuyến đi của bạn",
     "subtitle": "Khám phá những căn nhà homestay độc đáo, tiện nghi và giá cả hợp lý.",
     "search_placeholder": "Bạn muốn đến đâu?",
-    "search_button": "Tìm kiếm"
+    "search_button": "Tìm kiếm",
+    "location": "Địa điểm",
+    "check_in": "Nhận phòng",
+    "add_dates": "Thêm ngày",
+    "guests": "Khách",
+    "add_guests": "Thêm khách"
   },
   "footer": {
     "about": "Về chúng tôi",

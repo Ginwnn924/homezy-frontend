@@ -13,7 +13,12 @@
     "title": "Find the perfect place for your next trip",
     "subtitle": "Discover unique homestays, comfortable amenities, and reasonable prices.",
     "search_placeholder": "Where do you want to go?",
-    "search_button": "Search"
+    "search_button": "Search",
+    "location": "Location",
+    "check_in": "Check in",
+    "add_dates": "Add dates",
+    "guests": "Guests",
+    "add_guests": "Add guests"
   },
   "footer": {
     "about": "About Us",
